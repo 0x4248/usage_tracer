@@ -1,5 +1,8 @@
 # Usage_Tracer
 # A simple computer statistics tracer.
+# GitHub: https://www.github.com/lewisevans2007/usage_tracer
+# Licence: GNU General Public Licence v3.0
+# By: Lewis Evans
 
 import os
 import sys
