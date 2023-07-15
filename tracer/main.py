@@ -10,6 +10,7 @@ import time
 import psutil
 import json
 
+
 def move_last_data_to_new_file():
     """
     Move the last data to a new file with the date and time as name.
