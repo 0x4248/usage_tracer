@@ -60,4 +60,7 @@ def main():
 
 
 if __name__ == "__main__":
+    """
+    Main entrypoint for program
+    """
     main()
