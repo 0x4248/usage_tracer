@@ -10,7 +10,6 @@ import time
 import psutil
 import json
 
-
 def move_last_data_to_new_file():
     """
     Move the last data to a new file with the date and time as name.
@@ -25,7 +24,6 @@ def move_last_data_to_new_file():
 
     os.remove("data/latest.json")
 
-
 def create_new_last_data_file():
     """
     Create a new last data file.
@@ -35,7 +33,6 @@ def create_new_last_data_file():
 
     with open("data/latest.json", "w") as f:
         json.dump({"start": time.strftime("%Y-%m-%d %H:%M:%S"), "cpu": []}, f, indent=4)
-
 
 def main():
     """
@@ -58,7 +55,6 @@ def main():
         with open("data/latest.json", "w") as f:
             json.dump(data, f, indent=4)
         time.sleep(1)
-
 
 if __name__ == "__main__":
     """
