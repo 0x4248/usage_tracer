@@ -12,6 +12,8 @@ The results will be put in `data/latest.json`. Any old data will be moved to `da
 
 ## Example of data
 
+This is an example of the data that will be put in `data/latest.json`.
+
 ```json
 {
     "start": "2023-07-14 14:30:51",
