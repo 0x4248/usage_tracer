@@ -3,9 +3,9 @@
     "description": "A simple computer statistics tracer.",
     "version": "",
     "main_file": "tracer/main.py",
-    "author": "Lewis Evans",
+    "author": "0x4248",
     "license": "GNU General Public Licence v3.0",
-    "url": "https://www.github.com/lewisevans2007/usage_tracer",
+    "url": "https://www.github.com/0x4248/usage_tracer",
     "email": "none",
     "languages": [
         "python"
